@@ -1,0 +1,537 @@
+:root {
+	font-size: 10px;
+	--mainColor: #5BB12B;
+}
+
+::selection {
+	background-color: rgba(91, 177, 43, 0.6);
+}
+
+html {
+  scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.name {
+	color:#802BB1;
+	font-family: Lemonada;
+	text-align: center;
+	font-weight: 600;
+	font-size:11em;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin: 0;
+}
+
+.back {
+	background-image: url("wave (2).jpg");
+	position: relative;
+  width: 100%;
+	z-index: -1;
+	height: 80em;
+}
+
+.back:before {
+	position: absolute;
+  content: "";
+	z-index: -1;
+  width: 100%;
+  height: 100%;
+	background-color: #120619;
+	opacity: 0.65;
+}
+
+h2 {
+	font-size: 6em;
+	margin-bottom: 0.05em;
+	color: #5BB12B;
+	text-align: center;
+	font-family: Lemonada;
+	font-weight: 500;
+}
+
+hr {
+	width:60%;
+	border-top: #802BB1 1px solid;
+	opacity: 60%;
+}
+
+
+h3 {
+	font-size: 3.5em;
+	font-weight: 300;
+	color: #5B1E7E;
+	text-align: center;
+	font-family: Dosis;
+}
+
+h4 {
+	font-size:2em;
+	font-family: Lemonada;
+	color: #4e9724;
+	text-align: left;
+	font-weight: 300;
+}
+
+
+p {
+	margin: 1% 21%;
+	font-family: Dosis;
+	text-align: left;
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 1.7em
+}
+
+ul#navbar a {
+	display: inline-block;
+	width: 7em;
+	text-align: center;
+	background: #2D283E;
+	color: white;
+	font-family: Dosis;
+	text-decoration: none;
+	font-size: 1.8em;
+	padding: 1.5em 0.5em;
+}
+
+ul#navbar {
+	list-style: none;
+	position: fixed;
+	left:82%;
+	top: 10%;
+	z-index:2;
+}
+
+ul#navbar a:hover{
+	background: #5BB12B;
+	font-weight: 800;
+}
+
+.grid1 {
+	display: grid;
+	width: 60%;
+	grid-template: repeat(1, 1fr) / (2, 1fr);
+	margin: 0 20%;
+	grid-column-gap: 1em;
+}
+
+.me {
+	grid-row: 1 / span 1;
+}
+
+.meimg {
+	grid-column: 1 / span 1;
+	float:left;
+	height:20em;
+	width:20em;
+	border-radius: 50%;
+	border: 1.5em solid #f9f4fc;
+	margin-left: 30%;
+}
+
+.metxt {
+	grid-column: 2 / span 1;
+	width: 100%;
+	text-align: left;
+	margin-right: 20%;
+}
+
+.grid2 {
+	display: grid;
+	width: 60%;
+	margin: 1% 20%;
+	grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+.codeimg, .karateimg, .photoimg, .psychimg, .musicimg {
+	padding: 1em 0;
+	display: inline-block;
+	height:15em;
+	width:15em;
+}
+
+.coding, .karate, .photo {
+	grid-column: 2 / 5;
+	width: 100%;
+}
+
+.codep, .karatep, .photop {
+	grid-column: 2 / 5;
+	width: 100%;
+	margin: 0;
+}
+
+.codeimg, .karateimg, .photoimg {
+	grid-column: 1 / span 1;
+	margin-left:30%;
+	margin-right: 11em;
+}
+
+.psych, .music {
+	grid-column: 1 / 4;
+	width: 100%;
+	grid-row: 2 / span 1;
+}
+
+.psychp, .musicp {
+	grid-column: 1 / 4;
+	width: 100%;
+	margin: 0;
+	grid-row: 2 / span 1;
+}
+
+.psychimg, .musicimg {
+	grid-column: 4 / span 1;
+	margin-right:30%;
+	padding-left: 1em;
+}
+
+.music {
+	grid-column: 1 / 4;
+	width: 100%;
+	grid-row: 4 / span 1;
+}
+
+.musicp {
+	grid-column: 1 / 4;
+	width: 100%;
+	margin: 0;
+	grid-row: 4 / span 1;
+}
+
+#experience, #contact {
+	background:#f9f4fc;
+	width: 100%;
+}
+
+#about, #experience, #project, #contact {
+	padding-top:0.2em;
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+#experience h4 {
+	margin-left: 21%;
+	margin-bottom: 0.1em;
+}
+
+.edu {
+	margin: 1% 10%;
+}
+
+.date {
+	font-style: italic;
+	color: #120619dc;
+}
+
+#ability, #project, #aboutme {
+	background: white;
+}
+
+.quote {
+	font-family: Dosis;
+	font-size: 2.5em;
+	color: #120619;
+	text-align: center;
+	font-weight: 100;
+}
+
+.center {
+	text-align: center;
+}
+
+ul.awards li {
+	margin: 1% 21%;
+	font-family: Dosis;
+	text-align: left;
+	margin-bottom: 0.7em;
+	font-size: 1.7em;
+	font-weight: 300
+
+}
+
+a {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  text-decoration: underline;
+	text-decoration-color: #5BB12B;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%235BB12B' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+.grid4 {
+	display: grid;
+	width: 60%;
+	margin: 1% 20%;
+	grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
+.one {
+	grid-column: 2 / 5;
+	width: 100%;
+}
+
+.p1 {
+	grid-column: 2 / 5;
+	width: 100%;
+	margin: 0;
+}
+
+.img1 {
+	grid-column: 1 / span 1;
+	padding: 10px 0;
+	display: inline-block;
+	margin-left: 20%;
+	margin-right:100px;
+}
+
+.two {
+	grid-column: 1 / 4;
+	width: 100%;
+	grid-row: 2 / span 1;
+}
+
+.p2 {
+	grid-column: 1 / 4;
+	width: 100%;
+	margin: 0;
+	grid-row: 2 / span 1;
+}
+
+.img2 {
+	grid-column: 4 / span 1;
+	padding: 30px 0;
+	margin-left: 
+}
+
+.contactimg {
+	height:5%;
+	width: 5%;
+	display: inline-block;
+	margin: 1%;
+}
+
+.contactinfo {
+	margin: 0 20%;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 800px) {	
+
+	body {
+		overflow-x: hidden;
+	}
+
+	#navbar {
+		display: none;
+		height: 100%;
+		width: 80%;
+	}
+
+	.quote, h2, h3 {
+		margin: 0 auto;
+		width: 95%;
+		line-height: 1.8;
+		text-align: center;
+	}
+
+	h4 {
+		text-align: center;
+		margin: 0 auto;
+		padding: none;
+	}
+
+	p, ul.awards li {
+		font-size: 2em;
+		width: 90%;
+		margin: 0 auto;
+		line-height: 1.8;
+	}
+
+	.awards {
+		width: 90%;
+	}
+
+	hr {
+		width: 80%;
+	}
+
+	.grid1 {
+		display: grid;
+		width: 100%;
+		grid-template: repeat(2, 1fr) / (1, 1fr);
+		margin: 0 auto;
+	}
+
+	.meimg {
+		grid-row: 1 / span 1;
+		height:20em;
+		width:20em;
+		border-radius: 50%;
+		border: 1.5em solid #f9f4fc;
+		grid-column: 1 / span 1;
+		margin: 0 auto;
+		margin-top: 1em;
+	}
+
+	.metxt {
+		grid-row: 2 / span 1;
+		width: 90%;
+		height: auto;
+		grid-column: 1 / span 1;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.grid2 {
+		display: grid;
+		grid-template: repeat(10, 0fr) / repeat(1, 1fr);
+		width: 100%;
+		margin: 0 auto;
+		grid-row-gap: none;
+	}
+
+	.codeimg, .karateimg, .photoimg, .psychimg, .musicimg {
+		display: inline-block;
+		height:15em;
+		width:15em;
+		grid-column: 1 / span 1;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.coding, .karate, .photo, .psych, .music {
+		width: 90%;
+		margin: 0 auto;
+		grid-column: 1 / span 1;
+		padding: 0;
+		text-align: center;
+	}
+
+	.codeimg {
+		grid-row: 1 / span 1;
+	}
+
+	.coding {
+		grid-row: 2 / span 1;
+	}
+
+	.psychimg {
+		grid-row: 3 / span 1;
+	}
+
+	.psych {
+		grid-row: 4 / span 1; 
+	}
+
+	.karateimg {
+		grid-row: 5 / span 1;
+	}
+
+	.karate {
+		grid-row: 6 / span 1;
+	}
+
+	.musicimg {
+		grid-row: 7 / span 1;
+	}
+
+	.music {	
+		grid-row: 8 / span 1;
+	}
+
+	.photoimg {
+		grid-row: 9 / span 1;
+	}
+
+	.photo {
+		grid-row: 10 / span 1;
+	}
+
+	.edu {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.date {
+		text-align: center;
+	}
+
+	#experience h4 {
+		margin: 0 auto;
+		padding-top: 1em;
+	}
+
+	.grid4 {
+		grid-template: repeat(4, 0fr) / repeat(1, 1fr);
+		display: grid;
+		width: 100%;
+		margin: 0 auto;
+		grid-row-gap: none;
+	}
+
+	.one, .two {
+		width: 90%;
+		margin: 0 auto;
+		grid-column: 1 / span 1;
+		padding: 0;
+		text-align: center;
+		margin-top: none;
+	}
+
+	.p1, p2 {
+		width: 90%;
+	}
+
+	.img1, .img2 {
+		display: inline-block;
+		grid-column: 1 / span 1;
+		margin: 0 auto;
+		padding: 0;
+		margin-top: 1em;
+		max-width: 90%;
+	}
+
+	.img1 {
+		grid-row: 1 / span 1;
+	}
+
+	.one {
+		grid-row: 2 / span 1;
+		width: 90%
+	}
+
+	.img2 {
+		grid-row: 3 / span 1;
+		width: 2em;
+	}
+
+	.two {
+		grid-row: 4 / span 1;
+		width: 90%
+	}
+
+	.contactimg {
+		height: 5em;
+		width: 5em;
+	}
+
+}
