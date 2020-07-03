@@ -342,13 +342,11 @@ a:hover {
 
 	#navbar {
 		display: none;
-		height: 100%;
-		width: 80%;
 	}
 
 	.quote, h2, h3 {
 		margin: 0 auto;
-		width: 95%;
+		width: 90%;
 		line-height: 1.8;
 		text-align: center;
 	}
@@ -361,13 +359,13 @@ a:hover {
 
 	p, ul.awards li {
 		font-size: 2em;
-		width: 90%;
+		width: 86%;
 		margin: 0 auto;
 		line-height: 1.8;
 	}
 
 	.awards {
-		width: 90%;
+		width: 86%;
 	}
 
 	hr {
