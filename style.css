@@ -25,6 +25,8 @@ h1 {
 	font-size:11em;
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .back h2 {
@@ -37,6 +39,7 @@ h1 {
 .back p {
 	color: #5BB12B;
 	font-size: 3em;
+	text-align: center;
 }
 
 .text {
