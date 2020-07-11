@@ -1,2 +1,3 @@
-# orangelemon-ish
-Personal Website
+# Avni Gupta
+
+This is my personal website
