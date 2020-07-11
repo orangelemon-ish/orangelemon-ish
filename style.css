@@ -51,6 +51,7 @@ p.back {
 .txt-rotate {
 	overflow: hidden;
 	white-space: no-wrap;
+}
 
 .back {
 	background-image: url("wave (2).jpg");
