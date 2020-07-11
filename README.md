@@ -1,3 +1,3 @@
 # Avni Gupta
 
-This is my personal website
+Hi! I'm Avni, a rising sophomore in high school. 
