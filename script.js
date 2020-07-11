@@ -48,9 +48,9 @@ window.onload = function() {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
   }
-  // INJECT CSS
+  // CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.02em solid red }";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.02em solid #5BB12B }";
   document.body.appendChild(css);
 };
