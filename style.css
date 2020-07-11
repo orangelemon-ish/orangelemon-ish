@@ -23,6 +23,8 @@ h1 {
 	text-align: center;
 	font-weight: 600;
 	font-size:11em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 h2.back {
@@ -34,7 +36,8 @@ h2.back {
 
 p.back {
 	text-align: left;
-	color: #5B1E7E;
+	color: #5BB12B;
+	font-size: 2em;
 }
 
 .text {
