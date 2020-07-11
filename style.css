@@ -38,6 +38,27 @@ h1 {
 	height: 80em;
 }
 
+h2.back {
+	font-size: 4em;
+	color: #5BB12B;
+	text-align: center;
+	font-family: Dosis;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin: 0;
+}
+
+p.back {
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin: 0;
+}
+	
+
 .back:before {
 	position: absolute;
   content: "";
