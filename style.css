@@ -308,6 +308,7 @@ a:hover {
 	width: 60%;
 	margin: 1% 20%;
 	grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+	grid-column-gap: 2em;
 }
 
 .one {
