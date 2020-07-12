@@ -311,6 +311,10 @@ a:hover {
 	grid-column-gap: 2em;
 }
 
+#project h4 {
+	text-align: left;
+}
+
 .one {
 	grid-column: 2 / 5;
 	width: 100%;
@@ -558,6 +562,11 @@ a:hover {
 	.contactimg {
 		height: 5em;
 		width: 5em;
+	}
+	
+	h2 {
+		margin: 0 auto;
+		padding: 0 0.5em;
 	}
 
 }
