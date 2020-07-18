@@ -37,13 +37,16 @@ h1 {
 	margin: 0;
 }
 
-h2.txt-rotate {
+.txt-rotate {
 	overflow: hidden;
 	white-space: nowrap;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	color: #120619;
 	text-align: center;
 	margin: 0 2%;
+	font-family: Dosis;
+	font-weight: 100;
+
 }
 
 .quote {
