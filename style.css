@@ -29,13 +29,6 @@ h1 {
 	padding-bottom: 0;
 }
 
-.back h2 {
-	font-size: 4em;
-	color: #5BB12B;
-	text-align: center;
-	font-family: Dosis;
-}
-
 .text {
 	top:50%;
 	left: 50%;
@@ -44,9 +37,13 @@ h1 {
 	margin: 0;
 }
 
-.txt-rotate {
+h2.txt-rotate {
 	overflow: hidden;
 	white-space: nowrap;
+	font-size: 2.5em;
+	color: #120619;
+	text-align: center;
+	margin: 0 2%;
 }
 
 .quote {
