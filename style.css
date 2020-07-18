@@ -36,12 +36,6 @@ h1 {
 	font-family: Dosis;
 }
 
-.back p {
-	color: #5BB12B;
-	font-size: 3em;
-	text-align: center;
-}
-
 .text {
 	top:50%;
 	left: 50%;
@@ -53,8 +47,16 @@ h1 {
 .txt-rotate {
 	overflow: hidden;
 	white-space: nowrap;
-	font-weight: bold;
 }
+
+.quote {
+	font-family: Dosis;
+	font-size: 2.5em;
+	color: #120619;
+	text-align: center;
+	font-weight: 100;
+}
+
 
 .back {
 	background-image: url("wave (2).jpg");
@@ -261,14 +263,6 @@ ul#navbar a:hover{
 
 #ability, #project, #aboutme {
 	background: white;
-}
-
-.quote {
-	font-family: Dosis;
-	font-size: 2.5em;
-	color: #120619;
-	text-align: center;
-	font-weight: 100;
 }
 
 .center {
