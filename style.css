@@ -40,13 +40,6 @@ h1 {
 .txt-rotate {
 	overflow: hidden;
 	white-space: nowrap;
-	font-size: 0.5em;
-	color: #120619;
-	text-align: center;
-	margin: 0 2%;
-	font-family: Dosis;
-	font-weight: 100;
-
 }
 
 .quote {
